@@ -55,7 +55,7 @@ lr = 0.001
 num_epochs = 200
 net = linreg
 loss = squared_loss
-
+# zzz
 for epoch in range(num_epochs):
     for X, y in data_iter(batch_size, features, labels):
         l = loss(net(X, w, b), y)
