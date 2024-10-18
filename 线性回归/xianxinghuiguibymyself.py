@@ -3,7 +3,7 @@ import  random
 import  torch
 from d2l import torch as d2l
 from pyexpat import features
-
+# 111
 #  w 2，-3.4 和 b 4.2
 true_w = torch.tensor([2, -3.4])
 true_b = 4.2
@@ -21,7 +21,7 @@ d2l.set_figsize()
 d2l.plt.scatter(features[:, 1].detach().numpy(), labels.detach().numpy(), 1)
 # 显示生成的数据集
 # d2l.plt.show()
-
+#111
 def data_iter(batch_size, features, labels):
     num_examples = len(features)
     indices = list(range(num_examples))
